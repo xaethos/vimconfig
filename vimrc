@@ -1,8 +1,13 @@
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+
+set background=dark
 set tabstop=2
 set softtabstop=2
 set expandtab
 set shiftwidth=2
-runtime bundle/vim-pathogen/autoload/pathogen.vim
+
 syntax on
+colorscheme solarized
 filetype plugin indent on
 
