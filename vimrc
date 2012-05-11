@@ -10,4 +10,5 @@ set shiftwidth=2
 syntax on
 colorscheme solarized
 filetype plugin indent on
+set ofu=syntaxcomplete#Complete
 
