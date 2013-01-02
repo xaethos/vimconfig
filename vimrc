@@ -12,3 +12,5 @@ colorscheme solarized
 filetype plugin indent on
 set ofu=syntaxcomplete#Complete
 
+nmap <silent> <C-\> :NERDTreeFind<CR>
+
